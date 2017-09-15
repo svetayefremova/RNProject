@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import {
-  StyleSheet
-} from 'react-native';
 import { Router, Scene, Actions } from 'react-native-router-flux';
 
 import store from './store';
@@ -43,7 +40,7 @@ export default class Root extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const styles = {
   navBar: {
     backgroundColor: Colors.tintColor,
     borderBottomWidth: 0,
@@ -55,4 +52,4 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '700'
   },
-});
+};
