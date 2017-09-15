@@ -4,6 +4,7 @@ import { StyleSheet, View, Image, Text } from 'react-native';
 import Button from './Button';
 import Colors from '../constants/Colors';
 
+//TODO fix pictures sources
 export default class Item extends Component {
   render() {
     const { name, description, picturefilename, isfree } = this.props;
@@ -14,7 +15,7 @@ export default class Item extends Component {
           resizeMode="cover"
           blurRadius={5}
           style={styles.image}
-          source={{uri: picturefilename}}>
+          source={{}}>
           <Text style={{fontSize: 10, textAlign: 'center'}}>{picturefilename}</Text>
         </Image>
         <View style={styles.info}>
