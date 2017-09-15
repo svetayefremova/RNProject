@@ -10,4 +10,4 @@ React-native and redux project.This project was bootstrapped with [Create React 
 
 ### Ready app in IOS and Android
 
-![project](https://user-images.githubusercontent.com/22913344/30489982-0a6788b2-9a39-11e7-8f99-6877acdb4d89.gif)
+![project](https://user-images.githubusercontent.com/22913344/30490116-57844658-9a39-11e7-9458-fb23577891c8.gif)
